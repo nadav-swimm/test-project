@@ -1,0 +1,111 @@
+// Colors
+$site-bg-color: #F9FAFA;
+$primary-color: #0069E6; 
+$primary-text-color: #000000;
+$secondary-text-color: $primary-color;
+$primary-light: rgba(0,90,200, 0.4);
+$secondary-color: #000;
+$primary-faded-color: #EBF4FF;
+$error-color: #FF0000;
+$error-background: #FFEBEB;
+$success-background: rgb(84, 155, 84);
+$gray-normal: #596D81;
+$gray-darker: #263E52;
+$gray-light: rgba(0,0,0,0.1);
+$gray: rgba(0,0,0,0.6);
+$gray-blue: rgba(226, 229, 235, 0.2);
+$light-blue: #EEF4FB;
+$google-forms-color: #764EBE;
+$google-forms-color-light: #6D32B4;
+
+
+// Typography
+$text-color: $gray-normal;
+$title-color: $secondary-color;
+$primary-link-color: $primary-color;
+$font: 'Poppins', sans-serif;
+
+$border-color-gray: #dee2e6;
+$border-color-dark-gray: #89909D;
+$border-color-light-blue: $primary-light;
+
+// Sizes
+$mobile: 490px;
+$mobileforHeader: 780px;
+$ipad: 780px;
+$ipad-landscape: 950px;
+$small-screens: 1340px;
+$app-max-outer-width: 1440px;
+// $app-max-inner-width: 85vw; // 1000px;
+$padding-md: 50px;
+$grid-line-height: 67px;
+
+$spacing: 20px;
+$spacing-xl: 80px;
+$spacing-sm: 20px;
+$spacing-md: 40px;
+$spacing-lg: 60px;
+
+$modal-z-index: 12;
+$max-z-index: 11;
+$high-z-index: 10;
+
+/// TODO: move all other margin classes to this
+@mixin margin($direction, $size) {
+  $margin-size: 10px;
+  @if $size == 'sm' {
+    $margin-size: 5px;
+  }
+  @if $size == 'md' {
+    $margin-size: 10px;
+    
+  }
+  @if $size == 'lg' {
+    $margin-size: 20px;
+    
+  }
+  @if $size == 'xlg' {
+    $margin-size: 40px;
+    
+  }
+  @if $size == 'huge' {
+    $margin-size: 80px;
+    
+  }
+  @if $direction == 'up' {
+    margin-top: $margin-size;
+  }
+  @if $direction == 'down' {
+    margin-bottom: $margin-size;
+  }
+  @if $direction == 'left' {
+    margin-left: $margin-size;
+  }
+  @if $direction == right {
+    margin-right: $margin-size;
+  }
+  
+}
+
+@mixin card-shadow{
+  box-shadow: 0 0 24px 0 rgba(0,0,0,0.12);
+  border-radius: 16px;
+}
+
+@mixin svg-icon($url, $background: $gray-light, $hover: $primary-color) {
+    display: inline-block;
+    background-color: $background;
+    width: 27px;
+    height: 27px;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask: url('~/assets/' + $url + '.svg') center center no-repeat;
+    mask: url('~/assets/' + $url + '.svg') center center no-repeat;
+    &:hover {
+      background-color: $hover;
+    }
+  }

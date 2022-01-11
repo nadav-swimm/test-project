@@ -1,0 +1,31 @@
+image: node:10.15.1
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build
+          script:
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: "eu-west-1"
+                S3_BUCKET: "ia-webapp-staging"
+                ACL: "public-read"
+                LOCAL_PATH: "dist"
+
+            - pipe: atlassian/aws-cloudfront-invalidate:0.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                DISTRIBUTION_ID: 'E2WLA01EDNRKP2'

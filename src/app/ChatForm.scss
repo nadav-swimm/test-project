@@ -1,0 +1,28 @@
+
+// Styles for desktops
+// ------------------------
+.wizard {
+  width: 100%;
+}
+.wizard-navigation {
+  width: 689px;
+  justify-content: center;
+  @include margin('down', 'lg');
+  
+}
+.wizard-step__container {
+  @include card-shadow;
+  min-height: 340px;
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wizard-navigation-item {
+  color: $gray-light;
+
+  &.selected {
+    color: $primary-color;
+  }
+}
