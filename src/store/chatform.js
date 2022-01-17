@@ -6,14 +6,14 @@ import utils from '@/services/utils.js'
 export const initialState = {
   is_user_auth: false,
   /***************
-  URLs
+  URL
   ************** */
   rawGoogleFormUrl: storage.get('rawGoogleFormUrl'),
   chatbotUrl: '',
   chatBotProductionDir: '',
 
   /***************
-  User Preference
+  User Preferenc
   ************** */
   userEmail: '',
   isUserEmailValid: false,
