@@ -2,7 +2,9 @@
 id: ls0db
 name: "❗ Big title for something important!! "
 file_version: 1.0.2
-app_version: 0.7.2-0
+app_version: 0.7.3-0
+file_blobs:
+  package copy.json: b7bea0a9d322e4c7ee77f936352a38c08be394f6
 ---
 
 This is a section A
@@ -45,6 +47,80 @@ block
             
         
 2.  **ordered** list
+
+<br/>
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 package copy.json
+```json
+🟩 1      {
+🟩 2        "name": "chat-forms-website",
+🟩 3        "version": "1.0.1",
+🟩 4        "description": "Chat forms website",
+🟩 5        "main": "index.js",
+🟩 6        "scripts": {
+🟩 7          "test": "jest",
+🟩 8          "build": "webpack --config build/webpack.prod.js",
+🟩 9          "dev": "webpack-dev-server --hot --config build/webpack.dev.js",
+🟩 10         "lint": "eslint --ext .js,.vue src",
+🟩 11         "lint:fix": "eslint --ext .js,.vue src --fix",
+🟩 12         "cypress:open": "cypress open",
+🟩 13         "deploy-staging": "aws --region eu-west-1 --profile ia-webapp-staging s3 sync ./dist s3://ia-webapp-staging --delete"
+🟩 14       },
+🟩 15       "author": "",
+🟩 16       "license": "ISC",
+🟩 17       "dependencies": {
+🟩 18         "@johmun/vue-tags-input": "^2.1.0",
+🟩 19         "axios": "^0.21.1",
+🟩 20         "emoji-vue": "^0.2.4",
+🟩 21         "mixpanel-browser": "^2.40.1",
+🟩 22         "v-emoji-picker": "^2.3.3",
+🟩 23         "vue": "^2.6.12",
+🟩 24         "vue-class-component": "^7.2.5",
+🟩 25         "vue-confetti": "^2.2.1",
+🟩 26         "vue-google-api": "^0.2.0",
+🟩 27         "vue-google-oauth2": "^1.5.8",
+🟩 28         "vue-gtag": "^1.10.0",
+🟩 29         "vue-router": "^3.4.3",
+🟩 30         "vue-scrollto": "^2.18.2",
+🟩 31         "vue-select": "^3.10.8",
+🟩 32         "vue-underscore": "^0.1.4",
+🟩 33         "vuescroll": "^4.17.3",
+🟩 34         "vuex": "^3.5.1"
+🟩 35       },
+🟩 36       "devDependencies": {
+🟩 37         "@babel/core": "^7.14.3",
+🟩 38         "@babel/plugin-proposal-decorators": "^7.10.5",
+🟩 39         "@babel/preset-env": "^7.11.5",
+🟩 40         "@vue/test-utils": "^1.2.0",
+🟩 41         "babel-eslint": "^10.1.0",
+🟩 42         "babel-jest": "^26.6.3",
+🟩 43         "babel-loader": "^8.1.0",
+🟩 44         "copy-webpack-plugin": "^6.1.0",
+🟩 45         "css-loader": "^4.2.2",
+🟩 46         "cypress": "^6.1.0",
+🟩 47         "eslint": "^7.8.1",
+🟩 48         "eslint-config-standard": "^14.1.1",
+🟩 49         "eslint-loader": "^4.0.2",
+🟩 50         "eslint-plugin-cypress": "^2.11.2",
+🟩 51         "eslint-plugin-import": "^2.22.0",
+🟩 52         "eslint-plugin-node": "^11.1.0",
+🟩 53         "eslint-plugin-promise": "^4.2.1",
+🟩 54         "eslint-plugin-standard": "^4.0.1",
+🟩 55         "eslint-plugin-vue": "^6.2.2",
+🟩 56         "eslint-plugin-vue-libs": "^4.0.0",
+🟩 57         "file-loader": "^6.1.0",
+🟩 58         "html-webpack-plugin": "^4.4.1",
+🟩 59         "jest": "^26.6.3",
+🟩 60         "jest-serializer-vue": "^2.0.2",
+🟩 61         "node-sass": "^6.0.1",
+🟩 62         "sass": "^1.26.10",
+🟩 63         "sass-loader": "^10.0.2",
+🟩 64         "style-loader": "^1.2.1",
+🟩 65         "webpack-merge": "^5.7.3"
+⬜ 66       }
+⬜ 67     }
+```
 
 <br/>
 

@@ -2,9 +2,9 @@
 id: aut44
 name: Sample doc about Store.js
 file_version: 1.0.2
-app_version: 0.7.2-0
+app_version: 0.7.3-0
 file_blobs:
-  src/store/chatform.js: 003204aed605091a5b2069a2979f0f2d60b3db30
+  src/store/chatform.js: e58db35346d08d88e650c122ec270fbaa36b8864
 ---
 
 this is my code `chatbotUrl`[<sup id="Z2kCJjT">↓</sup>](#f-Z2kCJjT) - default value has to be empty
@@ -14,16 +14,16 @@ this is my code `chatbotUrl`[<sup id="Z2kCJjT">↓</sup>](#f-Z2kCJjT) - default 
 ⬜ 4      import utils from '@/services/utils.js'
 ⬜ 5      
 ⬜ 6      export const initialState = {
-🟩 7        is_user_auth: false,
+🟩 7        is_user_auth: true,
 🟩 8        /***************
-🟩 9        URLs
+🟩 9        URL
 🟩 10       ************** */
 🟩 11       rawGoogleFormUrl: storage.get('rawGoogleFormUrl'),
 🟩 12       chatbotUrl: '',
 🟩 13       chatBotProductionDir: '',
 🟩 14     
 🟩 15       /***************
-🟩 16       User Preference
+🟩 16       User Preferenc
 🟩 17       ************** */
 🟩 18       userEmail: '',
 🟩 19       isUserEmailValid: false,

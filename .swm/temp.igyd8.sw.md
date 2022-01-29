@@ -2,9 +2,9 @@
 id: igyd8
 name: temp
 file_version: 1.0.2
-app_version: 0.7.2-0
+app_version: 0.7.3-0
 file_blobs:
-  src/store/chatform.js: 003204aed605091a5b2069a2979f0f2d60b3db30
+  src/store/chatform.js: e58db35346d08d88e650c122ec270fbaa36b8864
 ---
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
@@ -13,9 +13,9 @@ file_blobs:
 ⬜ 4      import utils from '@/services/utils.js'
 ⬜ 5      
 ⬜ 6      export const initialState = {
-🟩 7        is_user_auth: false,
+🟩 7        is_user_auth: true,
 ⬜ 8        /***************
-⬜ 9        URLs
+⬜ 9        URL
 ⬜ 10       ************** */
 ```
 
