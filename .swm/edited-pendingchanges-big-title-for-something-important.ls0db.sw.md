@@ -1,8 +1,8 @@
 ---
 id: ls0db
-name: "❗ Big title for something important!! "
+name: "❗ [Edited pending+changes] Big title for something important!! "
 file_version: 1.0.2
-app_version: 0.7.2-0
+app_version: 0.7.3-0
 ---
 
 This is a section A
