@@ -4,7 +4,7 @@ import storage from '@/services/storageService.js'
 import utils from '@/services/utils.js'
 
 export const initialState = {
-  is_user_auth: false,
+  is_user_auth: true,
   /***************
   URL
   ************** */
