@@ -17,9 +17,8 @@
   "dependencies": {
     "@johmun/vue-tags-input": "^2.1.0",
     "axios": "^0.21.1",
-    "emoji-vue": "^0.2.4",
+    "emoji-vue": "^0.2.5",
     "eslint-config-airbnb-base": "^14.2.1",
-    "mixpanel-browser": "^2.40.1",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.5",
     "vue-confetti": "^2.2.1",
