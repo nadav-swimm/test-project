@@ -4,7 +4,7 @@ name: testing half revied
 file_version: 1.0.2
 app_version: 0.7.4-0
 file_blobs:
-  cypress.json: bed961056973ba0b832b5f2c3ab90503be5d9498
+  cypress.json: d271ba00fe067005929e177d91196b627b34b9eb
   index.html: 456c70d2f2a165b05c511925eeb11b3e92cff22f
 ---
 
@@ -13,7 +13,7 @@ file_blobs:
 ### 📄 cypress.json
 ```json
 🟩 1      {
-🟩 2          "viewportWidth": 900,
+🟩 2          "viewportWidth": 500,
 🟩 3          "viewportHeight": 800,
 🟩 4          "projectId": "yem4re"
 🟩 5      }
@@ -56,7 +56,7 @@ file_blobs:
 
 <span id="f-2putJ4">viewportWidth</span>[^](#2putJ4) - "cypress.json" L2
 ```json
-    "viewportWidth": 900,
+    "viewportWidth": 500,
 ```
 
 <br/>
