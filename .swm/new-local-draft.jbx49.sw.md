@@ -5,9 +5,11 @@ file_version: 1.0.2
 app_version: 0.7.4-0
 ---
 
-adding link [testing half revied](testing-half-revied.nqfvw.sw.md)
+adding li
 
 and external link [google](http://www.google.com)
+
+and internal link [storage api (created from main)](storage-api-created-from-main.sup6d.sw.md)
 
 <br/>
 
