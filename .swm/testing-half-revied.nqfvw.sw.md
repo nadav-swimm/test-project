@@ -4,8 +4,8 @@ name: testing half revied
 file_version: 1.0.2
 app_version: 0.7.4-0
 file_blobs:
-  cypress.json: d271ba00fe067005929e177d91196b627b34b9eb
-  index.html: 8fcbf712d1b8a364cdcb5b7a108716685b0099af
+  cypress.json: bed961056973ba0b832b5f2c3ab90503be5d9498
+  index.html: 456c70d2f2a165b05c511925eeb11b3e92cff22f
 ---
 
 `viewportWidth`[<sup id="2putJ4">↓</sup>](#f-2putJ4)
@@ -13,7 +13,7 @@ file_blobs:
 ### 📄 cypress.json
 ```json
 🟩 1      {
-🟩 2          "viewportWidth": 500,
+🟩 2          "viewportWidth": 900,
 🟩 3          "viewportHeight": 800,
 🟩 4          "projectId": "yem4re"
 🟩 5      }
@@ -37,7 +37,7 @@ file_blobs:
 🟩 15         <link rel="canonical" href="https://chat-forms.com/" />
 🟩 16         <link rel="icon" href="/favicon.ico">
 🟩 17         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=PYAAl45bRr">
-🟩 18         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=PYAAl45bRr">
+🟩 18         <link rel="icon-old" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=PYAAl45bRr">
 🟩 19         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=PYAAl45bRr">
 ⬜ 20         <link rel="manifest" href="/site.webmanifest?v=PYAAl45bRr">
 ⬜ 21         <link rel="mask-icon" href="/safari-pinned-tab.svg?v=PYAAl45bRr" color="#5bbad5">
@@ -56,7 +56,7 @@ file_blobs:
 
 <span id="f-2putJ4">viewportWidth</span>[^](#2putJ4) - "cypress.json" L2
 ```json
-    "viewportWidth": 500,
+    "viewportWidth": 900,
 ```
 
 <br/>
