@@ -1,6 +1,6 @@
 ---
 id: ls0db
-name: "❗ Big title for something important!! "
+name: "❗ [Edited pending+changes] Big title for something important!! "
 file_version: 1.0.2
 app_version: 0.7.3-0
 file_blobs:
