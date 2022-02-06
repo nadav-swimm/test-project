@@ -52,7 +52,7 @@ block
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 package copy.json
 ```json
-⬜ 1      {
+🟩 1      {
 🟩 2        "name": "chat-forms-website",
 🟩 3        "version": "1.0.1",
 🟩 4        "description": "Chat forms website",
