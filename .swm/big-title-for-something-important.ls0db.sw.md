@@ -45,7 +45,6 @@ block
         
         1.  ordered list issue
             
-        
 2.  **ordered** list
 
 <br/>
