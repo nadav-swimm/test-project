@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "viewportWidth": 900,
+=======
+    "viewportWidth": 500,
+>>>>>>> 60abf5f (cypress)
     "viewportHeight": 800,
     "projectId": "yem4re"
 }
