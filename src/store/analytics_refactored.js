@@ -1,6 +1,7 @@
 import Analytics from '@/services/analytics.js'
 const analyticsService = new Analytics()
 
+// forgot a comment here
 export const storeGetters = {
   fireRawGoogleFormUrlInvalidEvent (state, getters) {
     return function () {
