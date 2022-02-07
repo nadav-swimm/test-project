@@ -3,6 +3,7 @@ import httpService from '@/services/httpService.js'
 /* eslint-disable no-debugger */
 import utils from '@/services/utils.js'
 
+// Total refactor
 const shareByEmail = {
   state: () => ({
     recipients: [],
@@ -15,6 +16,9 @@ const shareByEmail = {
   mutations: {
     sSetRecipients (state, value) {
       state.recipients = value
+    },
+    boo() {
+      
     },
     sSetSenderEmail (state, value) {
       state.from = value

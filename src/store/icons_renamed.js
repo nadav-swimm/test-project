@@ -48,7 +48,8 @@ import twitterInvertedIcon from '~/assets/twitter_icon.svg'
 import warningIcon from '~/assets/warning.svg'
 import widgetIcon from '~/assets/widget.svg'
 
-export const iconsGetters2 = {
+// forgot a comment here
+export const iconsGetters3 = {
   exampleOnboardingImage () {
     return exampleOnboardingImage
   },
