@@ -2,7 +2,7 @@ import Analytics from '@/services/analytics.js'
 const analyticsService = new Analytics()
 
 // forgot a comment here
-export const storeGetters = {
+export const storeGetter = {
   fireRawGoogleFormUrlInvalidEvent (state, getters) {
     return function () {
       analyticsService.track('Wizard Step 1', 'Invalid Url', {
@@ -25,7 +25,7 @@ export const storeGetters = {
   fireEventFormAdvancedOptions (state, getters) {
     return function () {
       analyticsService.track('Wizard Step 2', 'Language', {
-        'preferred language': getters.preferredLanguage,
+        'preferred language bla': getters.preferredLanguage,
         'send me notifications (default: true)': getters.receiveExpirationEmail,
         'show progress feedback (default: true)': getters.progressValue,
         'show motivation feedback (default false)': getters.showMotivationValue

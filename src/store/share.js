@@ -26,6 +26,8 @@ const shareByEmail = {
     sSetMessage (state, value) {
       state.message = value
     },
+
+    // comment
     sResetForm (state) {
       state.recipients = []
       state.from = ''
