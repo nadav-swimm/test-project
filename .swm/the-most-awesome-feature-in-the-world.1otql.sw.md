@@ -5,7 +5,7 @@ file_version: 1.0.2
 app_version: 0.7.4-0
 file_blobs:
   package.json: ed8dcff0a35b108f77da6badaaf843ebd4ca8739
-  src/store/analytics_refactored_again.js: 047fa6de1dad56cedb18a28a59c42c4d20973270
+  src/store/analytics_refactored_again.js: ba5bde73508d15be887405b205333e039baaa2f1
   src/store/share.js: f7495747ad6e2eaa9a1896c1e2c7fd1d57bf3fb3
 ---
 
@@ -35,13 +35,14 @@ Editing!!
 
 <br/>
 
+storeGetter2 is better!
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/store/analytics_refactored_again.js
 ```javascript
 ⬜ 2      const analyticsService = new Analytics()
 ⬜ 3      
-⬜ 4      // forgot a comment here
-🟩 5      export const storeGetter = {
+⬜ 4      // forgot a comment here - this
+🟩 5      export const storeGetter2 = {
 ⬜ 6        fireRawGoogleFormUrlInvalidEvent (state, getters) {
 ⬜ 7          return function () {
 ⬜ 8            analyticsService.track('Wizard Step 1', 'Invalid Url', {
