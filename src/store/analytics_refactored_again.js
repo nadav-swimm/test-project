@@ -1,8 +1,8 @@
 import Analytics from '@/services/analytics.js'
 const analyticsService = new Analytics()
 
-// forgot a comment here
-export const storeGetter = {
+// forgot a comment here - this
+export const storeGetter2 = {
   fireRawGoogleFormUrlInvalidEvent (state, getters) {
     return function () {
       analyticsService.track('Wizard Step 1', 'Invalid Url', {
