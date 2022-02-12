@@ -10,18 +10,7 @@
 <script>
 
 export default {
-  props: {
-
-    input: {
-      type: Function,
-      default: () => {
-      }
-    },
-    value: {
-      type: String,
-      default: ''
-    }
-  }
+ 
 }
 </script>
 <style lang="scss" scoped>
