@@ -1,11 +1,17 @@
 ---
 id: r54x2
-name: Doc for 1
+name: Doc for 1iii
 file_version: 1.0.2
-app_version: 0.7.4-0
+app_version: 0.7.6-1
 ---
 
-111
+[doc about 2](doc-about-2.cbniu.sw.md)
+
+`📄 vue.config.js`
+
+<br/>
+
+[https://10bis.co.il/](https://10bis.co.il/)
 
 <br/>
 
