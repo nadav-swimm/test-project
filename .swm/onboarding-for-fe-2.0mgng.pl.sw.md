@@ -1,6 +1,6 @@
 ---
 id: 0mgng
-name: Onboarding for FE
+name: Onboarding for FE 2
 file_version: 1.0.2
 app_version: 0.7.6-1
 ---
