@@ -7,6 +7,8 @@ app_version: 0.8.0-0
 
 To run your local dev environment you will need a few things on your machine. Follow the steps below.
 
+Next: [🛠 Dev Environment Setup](dev-environment-setup.hacdo.sw.md)
+
 <br/>
 
 ## Installations
@@ -38,10 +40,6 @@ git clone https://github.com/my_company/company_repo.git
 *   Then, build the project by running `yarn build`.
 
 Here's what `yarn build` doing behind the scenes:
-
-<br/>
-
-
 
 <br/>
 
@@ -117,10 +115,6 @@ $ yarn pack
 ```
 
 See package.json for full list of supported yarn scripts:
-
-<br/>
-
-
 
 <br/>
 
