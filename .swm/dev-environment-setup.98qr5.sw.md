@@ -7,7 +7,9 @@ app_version: 0.8.0-0
 
 To run your local dev environment you will need a few things on your machine. Follow the steps below.
 
-Next: [🛠 Dev Environment Setup](dev-environment-setup.hacdo.sw.md)
+<br/>
+
+Next: [🔘 Adding an Instance of Component](adding-an-instance-of-component.wtlkh.sw.md)
 
 <br/>
 
