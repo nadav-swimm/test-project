@@ -2,14 +2,44 @@
 id: fbtcf
 name: ⚙️ How to Add a New User Configuration Value
 file_version: 1.0.2
-app_version: 0.9.1-1
+app_version: 0.9.1-4
 file_blobs:
+  index.html: 456c70d2f2a165b05c511925eeb11b3e92cff22f
   src/App.vue: 788ceb978722fc1a96bb03106116c1ace078d1a4
 ---
 
 ## Why is This Important?
 
 this is important because:
+
+;fdslksjfsd;klj
+
+;lkj;lkj
+
+
+
+
+THIS IS A LINE
+
+<br/>
+
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 index.html
+```html
+⬜ 8          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">    <meta name="description" content="Conversational Forms" />
+⬜ 9          <meta property="og:url"           content="https://chat-forms.com/" />
+⬜ 10         <meta property="og:type"          content="website" />
+🟩 11         <meta property="og:title"         content="Chat-Forms" />
+⬜ 12         <meta property="og:description"   content="Conversational Forms" />
+⬜ 13         <meta property="og:image"         content="/favicon.png" />
+⬜ 14         <meta property="og:site_name"     content="Chat-Forms" />
+```
+
+<br/>
+
+`inline`
 
 *   I say it is
     
@@ -18,16 +48,11 @@ this is important because:
 
 ## What is "{add an example configuration value}"?
 
-{Describe an example configuration value, and some details on what it does}
-
 In this document we will see
 
 how to make this value configurable (instead of constant in the code).
 
 ## Definition Example
-
-
-
 
 We define our configuration values in {add a file or directory, use the "/path" command}
 
@@ -56,19 +81,9 @@ We define our configuration values in {add a file or directory, use the "/path" 
 
 {Add an example of where the configurable value is used in the code}
 
-<br/>
-
-
-
-<br/>
-
 ## Updating an Existing Configuration Value
 
 {Add any required migrations, or other actions, when updating an existing configuration value}
-
-<br/>
-
-
 
 <br/>
 
