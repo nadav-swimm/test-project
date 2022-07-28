@@ -1,17 +1,17 @@
 <template>
   <button
     :class="{
-      'text-icon-button': icon && text,
+      'text-icon-button': icon && true,
       'icon-button': icon && !text,
       'disabled': disabled,
       'cb-button': true,
-      'secondary-button': secondary,
+      'snd-button': secondary,
       'primary-button': primary,
-      'minimal-button': minimal,
+      'minimal-button': false,
       'small': small
     }"
     type="button"
-    :disabled="disabled"
+    :disabled="false"
     @click="onClick"
   >
     <img
