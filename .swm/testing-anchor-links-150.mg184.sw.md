@@ -5,30 +5,9 @@ file_version: 1.1.2
 app_version: 1.4.5
 ---
 
-[https://swimm-web-app.web.app/workspaces/wG8Z1f9UYTTSaJT7O9TQ/repos/Z2l0aHViJTNBJTNBdGVzdC1wcm9qZWN0JTNBJTNBbmFkYXYtc3dpbW0=/branch/main/docs/new?draft=MG1heHI=](https://swimm-web-app.web.app/workspaces/wG8Z1f9UYTTSaJT7O9TQ/repos/Z2l0aHViJTNBJTNBdGVzdC1wcm9qZWN0JTNBJTNBbmFkYXYtc3dpbW0=/branch/main/docs/new?draft=MG1heHI=)
-
 <br/>
 
-<br/>
-
-
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 bitbucket-pipelines.yml
-```yaml
-13           - step:
-14               name: Deploy
-15               deployment: staging
-16               script:
-17                 - pipe: atlassian/aws-s3-deploy:0.5.0
-```
-
-<br/>
-
-[https://swimm-web-app.web.app/workspaces/wG8Z1f9UYTTSaJT7O9TQ/repos/Z2l0aHViJTNBJTNBdGVzdC1wcm9qZWN0JTNBJTNBbmFkYXYtc3dpbW0=/branch/main/docs/new?selectedSnippet=-0](https://swimm-web-app.web.app/workspaces/wG8Z1f9UYTTSaJT7O9TQ/repos/Z2l0aHViJTNBJTNBdGVzdC1wcm9qZWN0JTNBJTNBbmFkYXYtc3dpbW0=/branch/main/docs/new?selectedSnippet=-0)
-
-<br/>
-
-<br/>
+[[sym-mention:(cbbd604e-71ac-4f16-bc78-45c61d2d73e9|1NTUjE)Nadav Avidan]]
 
 <br/>
 
