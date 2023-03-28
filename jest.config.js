@@ -5,11 +5,6 @@ module.exports = {
         "json",
         "vue",
     ],
-    transform: {
-        ".*\\.(vue)$": "vue-jest",
-        "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-        "^.+\\.svg$": "<rootDir>/svgTransform.js" 
-    },
     collectCoverage: true,
     collectCoverageFrom: [
         "src/components/**/*.{js,vue}",
